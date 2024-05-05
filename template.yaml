@@ -1,0 +1,7 @@
+Resources:
+  LambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: dev.mzamo.ScraperHandler::handleRequest
+      Runtime: java21
+      CodeUri: .
